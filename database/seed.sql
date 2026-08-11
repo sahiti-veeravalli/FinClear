@@ -1,0 +1,2 @@
+-- Seed data is created safely by the Spring Boot DataInitializer for local development.
+-- Demo accounts are documented in README.md.

@@ -1,0 +1,253 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.finclear:finclear-backend >--------------------
+[INFO] Building finclear-backend 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.4.1:run (default-cli) > test-compile @ finclear-backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ finclear-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ finclear-backend ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/repository/AccountRepository.java:[5,8] cannot find symbol
+  symbol:   variable LockModeType
+  location: interface com.finclear.repository.AccountRepository
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/repository/AccountRepository.java:[5,20] an enum annotation value must be an enum constant
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AccountController.java:[5,134] cannot find symbol
+  symbol:   method getId()
+  location: variable x of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AccountController.java:[5,160] cannot find symbol
+  symbol:   method getAccountNumber()
+  location: variable x of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AccountController.java:[5,191] cannot find symbol
+  symbol:   method getAvailableBalance()
+  location: variable x of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AccountController.java:[5,226] cannot find symbol
+  symbol:   method getCurrency()
+  location: variable x of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AccountController.java:[5,251] cannot find symbol
+  symbol:   method getStatus()
+  location: variable x of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AccountController.java:[5,272] incompatible types: java.util.List<java.lang.Object> cannot be converted to java.util.List<java.util.Map<java.lang.String,java.lang.Object>>
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AuthController.java:[7,196] cannot find symbol
+  symbol:   method getPasswordHash()
+  location: variable u of type com.finclear.domain.User
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AuthController.java:[7,295] cannot find symbol
+  symbol:   method getEmail()
+  location: variable u of type com.finclear.domain.User
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AuthController.java:[7,308] cannot find symbol
+  symbol:   method getRole()
+  location: variable u of type com.finclear.domain.User
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AuthController.java:[7,321] cannot find symbol
+  symbol:   method getRole()
+  location: variable u of type com.finclear.domain.User
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/security/JwtService.java:[7,56] no suitable method found for verifyWith(java.security.Key)
+    method io.jsonwebtoken.JwtParserBuilder.verifyWith(javax.crypto.SecretKey) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to javax.crypto.SecretKey)
+    method io.jsonwebtoken.JwtParserBuilder.verifyWith(java.security.PublicKey) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to java.security.PublicKey)
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/PaymentController.java:[7,91] cannot find symbol
+  symbol:   method getId()
+  location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/PaymentController.java:[7,112] cannot find symbol
+  symbol:   method getMerchant()
+  location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/PaymentController.java:[7,137] cannot find symbol
+  symbol:   method getAmount()
+  location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/PaymentController.java:[7,162] cannot find symbol
+  symbol:   method getCurrency()
+  location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/PaymentController.java:[7,187] cannot find symbol
+  symbol:   method getStatus()
+  location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/PaymentController.java:[7,213] cannot find symbol
+  symbol:   method getCreatedAt()
+  location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[12,8] cannot find symbol
+  symbol:   method getStatus()
+  location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[13,8] cannot find symbol
+  symbol:   method getAvailableBalance()
+  location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[14,27] cannot find symbol
+  symbol:   method getAvailableBalance()
+  location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[15,25] cannot find symbol
+  symbol:   method setPayer(com.finclear.domain.Account)
+  location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[15,39] cannot find symbol
+  symbol:   method setMerchant(java.lang.String)
+  location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[15,67] cannot find symbol
+  symbol:   method setAmount(java.math.BigDecimal)
+  location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[15,91] cannot find symbol
+  symbol:   method setCurrency(r.currency[...]ncy())
+  location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[15,144] cannot find symbol
+  symbol:   method setIdempotencyKey(java.lang.String)
+  location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[15,169] cannot find symbol
+  symbol:   method setStatus(java.lang.String)
+  location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[15,194] cannot find symbol
+  symbol:   method setUpdatedAt(java.time.Instant)
+  location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[17,72] cannot find symbol
+  symbol:   method getId()
+  location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[18,63] cannot find symbol
+  symbol:   method getId()
+  location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/config/DataInitializer.java:[5,180] cannot find symbol
+  symbol:   method setUser(com.finclear.domain.User)
+  location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/config/DataInitializer.java:[5,193] cannot find symbol
+  symbol:   method setAccountNumber(java.lang.String)
+  location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/config/DataInitializer.java:[5,225] cannot find symbol
+  symbol:   method setAvailableBalance(java.math.BigDecimal)
+  location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/config/DataInitializer.java:[6,179] cannot find symbol
+  symbol:   method setUser(com.finclear.domain.User)
+  location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/config/DataInitializer.java:[6,192] cannot find symbol
+  symbol:   method setAccountNumber(java.lang.String)
+  location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/config/DataInitializer.java:[6,224] cannot find symbol
+  symbol:   method setAvailableBalance(java.math.BigDecimal)
+  location: variable a of type com.finclear.domain.Account
+[INFO] 37 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.305 s
+[INFO] Finished at: 2026-08-12T02:03:48+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project finclear-backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/repository/AccountRepository.java:[5,8] cannot find symbol
+[ERROR]   symbol:   variable LockModeType
+[ERROR]   location: interface com.finclear.repository.AccountRepository
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/repository/AccountRepository.java:[5,20] an enum annotation value must be an enum constant
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AccountController.java:[5,134] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable x of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AccountController.java:[5,160] cannot find symbol
+[ERROR]   symbol:   method getAccountNumber()
+[ERROR]   location: variable x of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AccountController.java:[5,191] cannot find symbol
+[ERROR]   symbol:   method getAvailableBalance()
+[ERROR]   location: variable x of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AccountController.java:[5,226] cannot find symbol
+[ERROR]   symbol:   method getCurrency()
+[ERROR]   location: variable x of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AccountController.java:[5,251] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable x of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AccountController.java:[5,272] incompatible types: java.util.List<java.lang.Object> cannot be converted to java.util.List<java.util.Map<java.lang.String,java.lang.Object>>
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AuthController.java:[7,196] cannot find symbol
+[ERROR]   symbol:   method getPasswordHash()
+[ERROR]   location: variable u of type com.finclear.domain.User
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AuthController.java:[7,295] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable u of type com.finclear.domain.User
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AuthController.java:[7,308] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable u of type com.finclear.domain.User
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/AuthController.java:[7,321] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable u of type com.finclear.domain.User
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/security/JwtService.java:[7,56] no suitable method found for verifyWith(java.security.Key)
+[ERROR]     method io.jsonwebtoken.JwtParserBuilder.verifyWith(javax.crypto.SecretKey) is not applicable
+[ERROR]       (argument mismatch; java.security.Key cannot be converted to javax.crypto.SecretKey)
+[ERROR]     method io.jsonwebtoken.JwtParserBuilder.verifyWith(java.security.PublicKey) is not applicable
+[ERROR]       (argument mismatch; java.security.Key cannot be converted to java.security.PublicKey)
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/PaymentController.java:[7,91] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/PaymentController.java:[7,112] cannot find symbol
+[ERROR]   symbol:   method getMerchant()
+[ERROR]   location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/PaymentController.java:[7,137] cannot find symbol
+[ERROR]   symbol:   method getAmount()
+[ERROR]   location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/PaymentController.java:[7,162] cannot find symbol
+[ERROR]   symbol:   method getCurrency()
+[ERROR]   location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/PaymentController.java:[7,187] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/api/PaymentController.java:[7,213] cannot find symbol
+[ERROR]   symbol:   method getCreatedAt()
+[ERROR]   location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[12,8] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[13,8] cannot find symbol
+[ERROR]   symbol:   method getAvailableBalance()
+[ERROR]   location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[14,27] cannot find symbol
+[ERROR]   symbol:   method getAvailableBalance()
+[ERROR]   location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[15,25] cannot find symbol
+[ERROR]   symbol:   method setPayer(com.finclear.domain.Account)
+[ERROR]   location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[15,39] cannot find symbol
+[ERROR]   symbol:   method setMerchant(java.lang.String)
+[ERROR]   location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[15,67] cannot find symbol
+[ERROR]   symbol:   method setAmount(java.math.BigDecimal)
+[ERROR]   location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[15,91] cannot find symbol
+[ERROR]   symbol:   method setCurrency(r.currency[...]ncy())
+[ERROR]   location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[15,144] cannot find symbol
+[ERROR]   symbol:   method setIdempotencyKey(java.lang.String)
+[ERROR]   location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[15,169] cannot find symbol
+[ERROR]   symbol:   method setStatus(java.lang.String)
+[ERROR]   location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[15,194] cannot find symbol
+[ERROR]   symbol:   method setUpdatedAt(java.time.Instant)
+[ERROR]   location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[17,72] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/service/PaymentService.java:[18,63] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable p of type com.finclear.domain.Payment
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/config/DataInitializer.java:[5,180] cannot find symbol
+[ERROR]   symbol:   method setUser(com.finclear.domain.User)
+[ERROR]   location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/config/DataInitializer.java:[5,193] cannot find symbol
+[ERROR]   symbol:   method setAccountNumber(java.lang.String)
+[ERROR]   location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/config/DataInitializer.java:[5,225] cannot find symbol
+[ERROR]   symbol:   method setAvailableBalance(java.math.BigDecimal)
+[ERROR]   location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/config/DataInitializer.java:[6,179] cannot find symbol
+[ERROR]   symbol:   method setUser(com.finclear.domain.User)
+[ERROR]   location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/config/DataInitializer.java:[6,192] cannot find symbol
+[ERROR]   symbol:   method setAccountNumber(java.lang.String)
+[ERROR]   location: variable a of type com.finclear.domain.Account
+[ERROR] /C:/Users/Sahiti Veeravalli/Downloads/FinClear/FinClear/backend/src/main/java/com/finclear/config/DataInitializer.java:[6,224] cannot find symbol
+[ERROR]   symbol:   method setAvailableBalance(java.math.BigDecimal)
+[ERROR]   location: variable a of type com.finclear.domain.Account
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

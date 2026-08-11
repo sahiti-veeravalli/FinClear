@@ -1,0 +1,6 @@
+package com.finclear.security;
+import org.springframework.context.annotation.*; import org.springframework.security.config.annotation.web.builders.HttpSecurity; import org.springframework.security.config.http.SessionCreationPolicy; import org.springframework.security.web.*; import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter; import org.springframework.web.cors.*; import java.util.*;
+@Configuration public class SecurityConfig {
+ @Bean SecurityFilterChain chain(HttpSecurity http,JwtFilter jwt) throws Exception {return http.csrf(c->c.disable()).cors(c->c.configurationSource(req->{var x=new CorsConfiguration();x.setAllowedOrigins(List.of("http://localhost:5173","http://127.0.0.1:5173","http://localhost:5174","http://127.0.0.1:5174"));x.setAllowedMethods(List.of("*"));x.setAllowedHeaders(List.of("*"));return x;})).sessionManagement(s->s.sessionCreationPolicy(SessionCreationPolicy.STATELESS)).authorizeHttpRequests(a->a.requestMatchers("/api/v1/auth/**","/actuator/**","/swagger-ui/**","/v3/api-docs/**").permitAll().anyRequest().authenticated()).addFilterBefore(jwt,UsernamePasswordAuthenticationFilter.class).build();}
+ @Bean org.springframework.security.crypto.password.PasswordEncoder passwordEncoder(){return new org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder();}
+}

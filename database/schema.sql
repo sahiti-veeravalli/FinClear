@@ -1,0 +1,3 @@
+-- FinClear canonical MySQL 8 schema.
+-- Runtime migrations live in backend/src/main/resources/db/migration/V1__init.sql.
+-- Money is DECIMAL(19,4); never FLOAT/DOUBLE.
