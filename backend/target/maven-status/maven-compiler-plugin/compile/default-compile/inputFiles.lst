@@ -1,10 +1,12 @@
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\api\AccountController.java
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\api\ApiExceptionHandler.java
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\api\AuthController.java
+C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\api\ControlCenterController.java
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\api\PaymentController.java
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\config\DataInitializer.java
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\domain\Account.java
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\domain\AuditLog.java
+C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\domain\ExceptionCase.java
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\domain\JournalEntry.java
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\domain\LedgerAccount.java
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\domain\OutboxEvent.java
@@ -14,6 +16,7 @@ C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\FinClearApplication.java
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\repository\AccountRepository.java
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\repository\AuditLogRepository.java
+C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\repository\ExceptionCaseRepository.java
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\repository\JournalEntryRepository.java
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\repository\LedgerAccountRepository.java
 C:\Users\Sahiti Veeravalli\Downloads\FinClear\FinClear\backend\src\main\java\com\finclear\repository\OutboxEventRepository.java
