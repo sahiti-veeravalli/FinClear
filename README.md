@@ -1,7 +1,9 @@
 # FinClear
 
 > **The financial truth layer for high-growth businesses.**
->
+> 
+><img width="1917" height="1028" alt="image" src="https://github.com/user-attachments/assets/6574f008-f816-4a2a-9369-9ec3ef4d3d2b" />
+
 > FinClear turns fragmented payment, settlement, and ledger data into one explainable operational record — so a finance team can answer: **where is our money, what broke, and what should we do next?**
 
 ![Status](https://img.shields.io/badge/status-working%20prototype-F6DBC0?style=flat-square&labelColor=502D55)
