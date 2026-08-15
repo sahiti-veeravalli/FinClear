@@ -9,6 +9,7 @@ import com.finclear.domain.*; import com.finclear.repository.*; import org.sprin
    var existing=payments.findByIdempotencyKey(key); if(existing.isPresent()) return existing.get();
    if(r.amount()==null||r.amount().signum()<=0) throw new IllegalArgumentException("Amount must be positive");
    var a=accounts.findByIdForUpdate(r.accountId()).orElseThrow(()->new IllegalArgumentException("Account not found"));
+   if(!a.getUser().getEmail().equals(actor)) throw new IllegalArgumentException("Account is not available to this user");
    if(a.getStatus().equals("BLOCKED")) throw new IllegalStateException("Account is blocked");
    if(a.getAvailableBalance().compareTo(r.amount())<0) throw new IllegalStateException("Insufficient funds");
    a.setAvailableBalance(a.getAvailableBalance().subtract(r.amount()));
