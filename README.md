@@ -8,6 +8,8 @@
 ![Docker](https://img.shields.io/badge/DevOps-Docker-2496ED?logo=docker&logoColor=white)
 
 ![FinClear sign-in screen](docs/screenshots/login.png)
+<img width="1891" height="1028" alt="image" src="https://github.com/user-attachments/assets/18fa6618-2fcc-4921-bd18-3caaf7c86a0a" />
+
 
 ## The problem
 
