@@ -1,4 +1,4 @@
-# FinClear
+# FinClear - CashOps Command Center for Modern Payments
 
 > A CashOps command center that makes every payment, balance, and reconciliation issue explainable.
 
